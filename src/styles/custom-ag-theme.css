@@ -1,0 +1,103 @@
+.ag-theme-dribbble {
+    --ag-background-color: #fafafa;
+    --ag-foreground-color: #333;
+    --ag-header-background-color: #ff6ec4;
+    /* pastel/pink gradient header */
+    --ag-header-foreground-color: white;
+    --ag-row-hover-color: #ffe1f5;
+    --ag-row-selected-color: #ffb3d9;
+    --ag-odd-row-background-color: #fff0f8;
+    --ag-border-color: #f4c1e0;
+    --ag-font-family: 'Poppins', sans-serif;
+    --ag-font-size: 14px;
+    --ag-border-radius: 12px;
+    --ag-shadow-color: rgba(255, 110, 196, 0.25);
+}
+
+.ag-theme-dribbble .ag-header-cell {
+    border: none;
+    font-weight: 700;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+.ag-theme-dribbble .ag-row {
+    border-bottom: 1px solid var(--ag-border-color);
+    transition: background-color 0.3s ease;
+    border-radius: var(--ag-border-radius);
+}
+
+.ag-theme-dribbble .ag-cell {
+    padding: 10px;
+    border-right: none;
+    font-size: var(--ag-font-size);
+    font-family: var(--ag-font-family);
+}
+
+.ag-theme-dribbble {
+    border-radius: var(--ag-border-radius);
+    box-shadow: 0 8px 24px var(--ag-shadow-color);
+    overflow: hidden;
+}
+
+.example-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.grid-wrapper {
+    flex: 1 1 0px;
+    width: 100%;
+}
+
+#myGrid {
+    height: 100%;
+}
+
+/* globals.css or a module */
+.ag-theme-quartz {
+    --ag-row-height: 56px;
+    /* row height */
+    --ag-cell-horizontal-padding: 16px;
+    /* left/right padding */
+    --ag-header-height: 60px;
+    /* header height */
+    --ag-border-color: #e5e7eb;
+    /* soft gray */
+    --ag-row-border-width: 1px;
+    /* bottom border for rows */
+    --ag-font-size: 14px;
+    --ag-font-family: 'Inter', sans-serif;
+}
+
+/* Optional striping */
+.ag-theme-quartz .ag-row-odd {
+    background-color: #fafafa;
+}
+
+/* Target the root wrapper inside your ag-theme-quartz */
+.ag-theme-quartz .ag-root-wrapper {
+    border-radius: 4px !important;
+    overflow: hidden;
+    border: 0
+        /* clip inner content */
+}
+
+.ag-header-cell-resize {
+    background-color: rgb(245, 245, 245);
+}
+
+.ag-paging-panel {
+    padding: 16px;
+}
+
+.ag-header {
+    border: 0 !important;
+
+}
+
+.ag-paging-panel {
+    padding: 30px;
+    border-color: #c1c1c140 !important;
+}
